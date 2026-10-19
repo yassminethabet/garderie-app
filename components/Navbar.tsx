@@ -1,13 +1,10 @@
 
 "use client";
 
-import { useEffect } from "react";
+
 
 export default function Navbar() {
-  useEffect(() => {
-    import("bootstrap/dist/js/bootstrap.bundle.min.js");
-  }, []);
-
+  
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
       <div className="container">

@@ -2,13 +2,14 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
-
+import ApiData from "../components/ApiData";
 export default function Home() {
   return (
     <>
       <Navbar />
       <Hero />
       <Services />
+      <ApiData />
 
       <section id="contact" className="py-5 bg-success text-white">
         <div className="container text-center py-4">
